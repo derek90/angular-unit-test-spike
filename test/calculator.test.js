@@ -14,12 +14,12 @@ describe('calculatorController', function(){
 
   describe('$scope.add', function(){
     it('adds the 2 numbers written in the inputs', function() {
-      var $scope = {};
-      var controller = $controller('calculatorController', { $scope: $scope });
-      $scope.num1 = 2;
-      $scope.num2 = 3;
-      $scope.add();
-      expect($scope.result).toEqual(5);
+      var scopeStub = {};
+      var controller = $controller('calculatorController', { $scope: scopeStub });
+      scopeStub.num1 = 2;
+      scopeStub.num2 = 3;
+      scopeStub.add();
+      expect(scopeStub.result).toEqual(5);
     });
   });
 
