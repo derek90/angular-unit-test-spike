@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Calculator</title>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+</head>
+<body ng-app="calculator" ng-controller="calculatorController">
+	<input ng-model="num1" type="number">
+	<input ng-model="num2" type="number">
+	<button ng-click="add()">Add</button>
+	<span ng-model="result">Result: {{result}}</span>
+
+	<!-- Angular modules -->
+	<script type="text/javascript" src="calculatorController.js"></script>
+</body>
+</html>
