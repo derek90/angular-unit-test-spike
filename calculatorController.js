@@ -1,4 +1,4 @@
-var app = angular.module('calculator', []);
+var app = angular.module('myApp', []);
 
 app.controller('calculatorController', ['$scope', '$http' , function($scope, $http) {
 	$scope.result = '';
