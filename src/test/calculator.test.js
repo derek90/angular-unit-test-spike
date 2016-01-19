@@ -20,9 +20,10 @@ describe('calculatorController', function(){
       var controller = $controller('calculatorController', { $scope: scopeStub, 'addService': addService });
       scopeStub.num1 = 2;
       scopeStub.num2 = 3;
-      spyOn(addService, 'add');
+      spyOn(addService, 'add').and.returnValue(5);
       scopeStub.add();
       expect(addService.add).toHaveBeenCalledWith(scopeStub.num1, scopeStub.num2);
+      expect(scopeStub.result).toBe(5);
     });
   });
 
