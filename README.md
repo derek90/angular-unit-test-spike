@@ -29,7 +29,7 @@
 * karma-cli 0.1.2
 * karma-jasmine 0.3.6
 
-Authors 
+###### Authors 
 * Derek Baker, 
 * Hernan Iannello
 * Camila Garcia
