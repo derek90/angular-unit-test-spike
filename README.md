@@ -21,6 +21,7 @@ Chrome is set as the default browser. It can be changed in the **karma.conf.js**
 ###### Frontend dependencies included in the project
 * AngularJS
 * angular-mocks.js library
+
 ###### Backend dependencies included in package.json
 * jasmine-core 2.4.1
 * karma 0.13.19
