@@ -4,7 +4,8 @@
 
 ### Instructions
 
-1. After cloning the project, in the root path run: 
+1. After cloning the project, in the root path run:
+
 ```
 npm install
 ```
@@ -12,6 +13,7 @@ npm install
 It should install Karma, Jasmine and other backend dependencies.
 
 2. Then run
+
 ```
 npm test
 ```
@@ -19,10 +21,12 @@ npm test
 Chrome is set as the default browser. It can be changed in the **karma.conf.js** file
 
 ###### Frontend dependencies included in the project
+
 * AngularJS
 * angular-mocks.js library
 
 ###### Backend dependencies included in package.json
+
 * jasmine-core 2.4.1
 * karma 0.13.19
 * karma-chrome-launcher 0.2.2
