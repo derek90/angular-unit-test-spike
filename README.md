@@ -30,6 +30,6 @@
 * karma-jasmine 0.3.6
 
 ###### Authors 
-* Derek Baker, 
+* Derek Baker
 * Hernan Iannello
 * Camila Garcia
